@@ -4,6 +4,10 @@ In this project, i'll be covering how to configure a load balancer in nginx. Ngi
 
 Next thing we'll be implementing after the loadbalancer is how to secure connections to a website using SSL/TLS. TLS(Transport Layer Security) is a security technology that uses encryption to protect connections/sensitive data between clients and the web servers from Man-In-The-Middle Attacks. We'll be implementing how to create an SSL/TLS digital certificate that protects our website.
 
+![12](https://user-images.githubusercontent.com/47898882/128687800-2e53b3fd-dba1-4ec1-bf40-b3399ff9c19e.JPG)
+
+
+
 Now that all the concepts have been explained..Lets Begin!!
 
 # **Configure Nginx as a Loadbalancer**
