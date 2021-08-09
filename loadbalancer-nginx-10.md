@@ -59,7 +59,7 @@ $ sudo systemctl status nginx
 
 - Register a domain name for your website. If you need a free domain, just go to [freenom](https://freenom.com).
 
-- After registration, we have to find a way of mapping the Domain name to our ip address. This wil be made possible by the Route 53 service on AWS. Roure 53 allows for routing of network/traffic to your domain name b mapping the ip address to the domian name.
+- After registration, we have to find a way of mapping the Domain name to our ip address. This wil be made possible by the Route 53 service on AWS. Roure 53 allows for routing of network/traffic to your domain name by mapping the ip address to the domain name.
 
 - Go to the Route 53 service on the AWS console and create a new hosted zone. 
 
