@@ -93,13 +93,16 @@ $ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
 $ sudo certbot --nginx
 ```
+
 ![2](https://user-images.githubusercontent.com/47898882/128647070-bec9678c-148b-48eb-a94c-5e9ef205d978.JPG)
 
-- Test your setup on the browser using the domain name https://<your-domain-name.com>.
+- Test your setup on the browser using the domain name https://<your-domain-name.com>. You'll find out that your website has been secured when you see the padloc icon at top left corner of your browser. You can also view the digital certificate.
+
+![3](https://user-images.githubusercontent.com/47898882/128684760-257da76c-06d0-4c6d-b822-d1a3d9cf5ecc.JPG)
 
 ![11](https://user-images.githubusercontent.com/47898882/128647143-27482544-9648-44ae-8f46-884ec3c8cfa0.JPG)
 
-- Your Certificate has to be renewe after 90 days. Configure a cronjob in the crontab file that automates the renewal to twice a day. You can always change the interval of this cronjob if twice a day is too often by adjusting schedule expression.
+- Your Certificate has to be renews after 90 days. Configure a cronjob in the crontab file that automates the renewal to twice a day. You can always change the interval of this cronjob if twice a day is too often by adjusting schedule expression.
 
 ```
 $ crontab -e
