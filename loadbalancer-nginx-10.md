@@ -2,10 +2,9 @@
 
 In this project, i'll be covering how to configure a load balancer in nginx. Nginx is a high web server and reverse proxy server. It is a popular web service used for serving content of whatever sort on the internet/web. Also what is a load-balancing?. Loadbalancing refers to the process of distributing network/traffic between several servers to recieve requests and send back responses to clients, and this is based on a lot of factors/use cases which have to be considered such as the no. of servers, loadbalancing algorithms e.t.c. A very practical example will be to think about how google can keep their search engines running and serve content to users with minimum downtime, this is possible based on the loadbalancing concepts that allows distribution of networ to the millions of servers they have running.
 
-Next thing we'll be implementing after the loadbalancer is how to secure connections to a website using SSL/TLS. TLS(Transport Layer Security) is a security technology that uses encryption to protect connections/sensitive data between clients and the web servers from Man-In-The-Middle Attacks. We'll be implementing how to create an SSL/TLS digital certificate that protects our website.
+Next thing we'll be implementing after the loadbalancer is how to secure connections to a website using SSL/TLS. TLS(Transport Layer Security) is a security technology that uses encryption to protect connections/sensitive data between clients and the web servers from Man-In-The-Middle Attacks. We'll be implementing how to create an SSL/TLS digital certificate that protects our website. The reference architecture we'll be working with is shown below.
 
 ![12](https://user-images.githubusercontent.com/47898882/128687800-2e53b3fd-dba1-4ec1-bf40-b3399ff9c19e.JPG)
-
 
 
 Now that all the concepts have been explained..Lets Begin!!
